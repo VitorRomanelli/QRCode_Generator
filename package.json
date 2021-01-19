@@ -1,0 +1,12 @@
+{
+  "name": "qrcodegenerator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+		"qrcode": "http-server ./qrcode -c-1"
+  },
+  "dependencies": {
+		"http-server": "^0.11.1"
+	}
+}
